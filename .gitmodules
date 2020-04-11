@@ -1,8 +1,8 @@
 [submodule "gui"]
 	path = gui
-	url = git@aoindustries.github.com:aoindustries/noc-gui.git
+	url = git@github.com:aoindustries/noc-gui.git
 	branch = master
 [submodule "monitor"]
 	path = monitor
-	url = git@aoindustries.github.com:aoindustries/noc-monitor.git
+	url = git@github.com:aoindustries/noc-monitor.git
 	branch = master
