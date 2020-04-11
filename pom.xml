@@ -50,9 +50,9 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 	</issueManagement>
 
 	<modules>
-		<!-- TODO: <module>book</module>-->
+		<module>book</module>
 		<module>gui</module>
-		<!-- TODO: <module>gui/book</module>-->
+		<module>gui/book</module>
 		<module>monitor</module>
 	</modules>
 </project>
