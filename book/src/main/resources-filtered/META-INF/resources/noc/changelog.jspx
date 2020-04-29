@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2020-04-25T11:19:31-05:00"
+		dateModified="2020-04-29T05:46:23-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.aoindustries:noc:pom.version}" />
@@ -52,7 +52,11 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			/>
+			>
+				<ul>
+					<li>Updated MySQL JDBC Drivers to 5.1.49.</li>
+				</ul>
+			</changelog:release>
 		</c:if>
 
 		<changelog:release
