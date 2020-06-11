@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2020-06-11T08:50:49-05:00"
+		dateModified="2020-06-11T10:50:47-05:00"
 	>
 		<!-- The current snapshot, unreleased version -->
 		<c:set var="version" value="@{com.aoindustries:noc:pom.version}" />
@@ -52,12 +52,21 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>Updated PostgreSQL JDBC Drivers to 42.2.14.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.0.3"
+			datePublished="2020-06-11T10:50:47-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>Updated PostgreSQL JDBC Drivers to 42.2.14.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
