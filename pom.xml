@@ -29,7 +29,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		<relativePath>../ao-oss-parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>noc</artifactId><version>1.0.3-POST-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>noc</artifactId><version>1.0.4-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
 	<name>NOC</name>
