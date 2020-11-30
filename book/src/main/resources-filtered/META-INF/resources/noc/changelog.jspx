@@ -55,6 +55,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Updated dependencies.</li>
+					<li>Resolved editor warnings.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
