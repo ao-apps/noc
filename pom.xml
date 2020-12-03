@@ -53,6 +53,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		<module>book</module>
 		<module>gui</module>
 		<module>gui/book</module>
+		<module>gui/devel</module>
 		<module>monitor</module>
 	</modules>
 </project>
