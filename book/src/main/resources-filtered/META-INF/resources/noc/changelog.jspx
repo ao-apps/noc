@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-04-05T14:17:46-05:00"
+		dateModified="2021-04-05T15:21:48-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -52,6 +52,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 						Removed DNSBL for <code>dnsbl.openresolvers.org</code>, which no longer exists and is now just a
 						domain-for-sale page.
 					</li>
+					<li>Updated list of DNSBL lookups to match current sources.</li>
 				</ul>
 			</changelog:release>
 		</c:if>
