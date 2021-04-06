@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-04-06T10:29:32-05:00"
+		dateModified="2021-04-06T14:25:34-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -46,17 +46,26 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 				groupId="@{project.groupId}"
 				artifactId="@{documented.artifactId}"
 				scmUrl="@{project.scm.url}"
-			>
-				<ul>
-					<li>
-						Removed DNSBL for <code>dnsbl.openresolvers.org</code>, which no longer exists and is now just a
-						domain-for-sale page.
-					</li>
-					<li>Updated list of DNSBL lookups to match current sources.</li>
-					<li>Changed DNS query timeout from 5 seconds to 30 seconds.</li>
-				</ul>
-			</changelog:release>
+			/>
 		</c:if>
+
+		<changelog:release
+			projectName="@{documented.name}"
+			version="1.1.2"
+			datePublished="2021-04-06T14:25:34-05:00"
+			groupId="@{project.groupId}"
+			artifactId="@{documented.artifactId}"
+			scmUrl="@{project.scm.url}"
+		>
+			<ul>
+				<li>
+					Removed DNSBL for <code>dnsbl.openresolvers.org</code>, which no longer exists and is now just a
+					domain-for-sale page.
+				</li>
+				<li>Updated list of DNSBL lookups to match current sources.</li>
+				<li>Changed DNS query timeout from 5 seconds to 30 seconds.</li>
+			</ul>
+		</changelog:release>
 
 		<changelog:release
 			projectName="@{documented.name}"
