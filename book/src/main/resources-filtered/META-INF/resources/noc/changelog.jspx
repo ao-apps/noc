@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-04-19T09:08:05-05:00"
+		dateModified="2021-04-19T15:15:43-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -49,6 +49,26 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 			>
 				<ul>
 					<li>Removed <code>dnsrbl.org</code> DNSBL, which has an expired domain.</li>
+					<li>
+						<p>
+							Configured alert levels for <code>hostkarma.junkemailfilter.com</code>.  Some responses indicate
+							normal or even desirable states, such as 127.0.0.1 and 127.0.1.1.
+							See <ao:a href="https://wiki.junkemailfilter.com/index.php/Spam_DNS_Lists">Spam DNS Lists</ao:a>
+							for details.
+						</p>
+						<p>
+							Also uses all return values for A lookups instead of selecting a random entry, in order to
+							support <code>hostkarma.junkemailfilter.com</code>.
+						</p>
+					</li>
+					<li>
+						Limited <code>nobl.junkemailfilter.com</code> DNSBL to alert level "None", since it is a
+						positive whitelist.
+					</li>
+					<li>
+						Also performs TXT lookups for <code>TYPE_NOT_FOUND</code>, for DNSRBL sources that provide
+						meaningful information in TXT records even when not listed.
+					</li>
 				</ul>
 			</changelog:release>
 		</c:if>
