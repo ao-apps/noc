@@ -37,7 +37,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		shortTitle="Changelog"
 		tocLevels="1"
 		datePublished="2020-04-11T00:43:24-05:00"
-		dateModified="2021-04-19T15:15:43-05:00"
+		dateModified="2021-05-11T18:21:34-05:00"
 	>
 		<c:if test="${fn:endsWith('@{project.version}', '-SNAPSHOT') and !fn:endsWith('@{project.version}', '-POST-SNAPSHOT')}">
 			<changelog:release
@@ -66,8 +66,26 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 						positive whitelist.
 					</li>
 					<li>
+						Limited <code>vote.drbl.gremlin.ru</code> and <code>work.drbl.gremlin.ru</code> DNSBL to alert
+						level "None", since <ao:a href="http://drbl.gremlin.ru/en.html">the delisting procedure</ao:a>
+						seems rather obscure given the "vote" aspect.
+					</li>
+					<li>
 						Also performs TXT lookups for <code>TYPE_NOT_FOUND</code>, for DNSRBL sources that provide
 						meaningful information in TXT records even when not listed.
+					</li>
+					<li>
+						<p>
+							Reduced the lower-bound alert threshold temperatures for hard drives and solid-state drives.
+						</p>
+						<p>
+							Previously, the thresholds were 20C, 17C, 14C, 8C.  However, we have been routinely seeing
+							20C on SSD in the datacenter, which is a normal operating temperature.
+						</p>
+						<p>
+							Given that the lower-bound operating temperature of both SSD and HDD is around 0C to 5C, we
+							have adjusted the alert thresholds to 10C, 8C, 6C, 5C.
+						</p>
 					</li>
 				</ul>
 			</changelog:release>
