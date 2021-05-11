@@ -71,6 +71,14 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 						seems rather obscure given the "vote" aspect.
 					</li>
 					<li>
+						Limited <code>dnsbl.justspam.org</code> DNSBL to alert level "None", since
+						<ao:a href="http://www.justspam.org/policy">the delisting procedure</ao:a>
+						requires browsing from the IP address in order to request de-listing.  This
+						would mean having to provision the IP address and tunnel (or install browser on server) in order to
+						request delisting of a deallocated IP.  This is not worth the effort unless a client reports it as an
+						issue.
+					</li>
+					<li>
 						Also performs TXT lookups for <code>TYPE_NOT_FOUND</code>, for DNSRBL sources that provide
 						meaningful information in TXT records even when not listed.
 					</li>
