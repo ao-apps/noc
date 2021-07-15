@@ -86,6 +86,11 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		<url>https://github.com/aoindustries/noc/issues</url>
 	</issueManagement>
 
+	<ciManagement>
+		<system>GitHub Actions</system>
+		<url>https://github.com/aoindustries/noc/actions</url>
+	</ciManagement>
+
 	<repositories>
 		<!-- Repository required here, too, so can find parent -->
 		<repository>
