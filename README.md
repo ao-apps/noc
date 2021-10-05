@@ -1,4 +1,4 @@
-# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/aoindustries) [NOC](https://github.com/aoindustries/noc)
+# [<img src="ao-logo.png" alt="AO Logo" width="35" height="40">](https://github.com/ao-apps) [NOC](https://github.com/ao-apps/noc)
 
 [![project: current stable](https://aoindustries.com/ao-badges/project-current-stable.svg)](https://aoindustries.com/life-cycle#project-current-stable)
 [![management: production](https://aoindustries.com/ao-badges/management-production.svg)](https://aoindustries.com/life-cycle#management-production)
@@ -6,7 +6,7 @@
 [![semantic versioning: 2.0.0](https://aoindustries.com/ao-badges/semver-2.0.0.svg)](http://semver.org/spec/v2.0.0.html)
 [![license: LGPL v3](https://aoindustries.com/ao-badges/license-lgpl-3.0.svg)](https://www.gnu.org/licenses/lgpl-3.0)
 
-[![Build](https://github.com/aoindustries/noc/workflows/Build/badge.svg?branch=master)](https://github.com/aoindustries/noc/actions?query=workflow%3ABuild)
+[![Build](https://github.com/ao-apps/noc/workflows/Build/badge.svg?branch=master)](https://github.com/ao-apps/noc/actions?query=workflow%3ABuild)
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.aoindustries/noc)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc&metric=alert_status)](https://sonarcloud.io/dashboard?branch=master&id=com.aoapps.platform%3Anoc)
 [![Lines of Code](https://sonarcloud.io/api/project_badges/measure?branch=master&project=com.aoapps.platform%3Anoc&metric=ncloc)](https://sonarcloud.io/component_measures?branch=master&id=com.aoapps.platform%3Anoc&metric=ncloc)  
@@ -20,11 +20,11 @@ Aggregator POM for Network Operations Center.
 * [Project Home](https://aoindustries.com/noc/)
 * [Changelog](https://aoindustries.com/noc/changelog)
 * [Maven Central Repository](https://search.maven.org/artifact/com.aoindustries/noc)
-* [GitHub](https://github.com/aoindustries/noc)
+* [GitHub](https://github.com/ao-apps/noc)
 
 ## Modules
-* [NOC GUI](https://github.com/aoindustries/noc-gui)
-* [NOC Monitor](https://github.com/aoindustries/noc-monitor)
+* [NOC GUI](https://github.com/ao-apps/noc-gui)
+* [NOC Monitor](https://github.com/ao-apps/noc-monitor)
 
 ## Contact Us
 For questions or support, please [contact us](https://aoindustries.com/contact):

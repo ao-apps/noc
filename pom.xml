@@ -39,7 +39,7 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 		<nexusUrl>https://oss.sonatype.org/</nexusUrl>
 		<!-- SonarQube -->
 		<sonar.projectKey>com.aoapps.platform:noc<!-- TODO: ${project.groupId}:${project.artifactId} --></sonar.projectKey>
-		<sonar.organization>aoindustries</sonar.organization>
+		<sonar.organization>ao-apps</sonar.organization>
 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
 	</properties>
 
@@ -72,20 +72,20 @@ along with noc.  If not, see <http://www.gnu.org/licenses />.
 	</developers>
 
 	<scm>
-		<connection>scm:git:git://github.com/aoindustries/noc.git</connection>
-		<developerConnection>scm:git:git@github.com:aoindustries/noc.git</developerConnection>
-		<url>https://github.com/aoindustries/noc</url>
+		<connection>scm:git:git://github.com/ao-apps/noc.git</connection>
+		<developerConnection>scm:git:git@github.com:ao-apps/noc.git</developerConnection>
+		<url>https://github.com/ao-apps/noc</url>
 		<tag>HEAD</tag>
 	</scm>
 
 	<issueManagement>
 		<system>GitHub Issues</system>
-		<url>https://github.com/aoindustries/noc/issues</url>
+		<url>https://github.com/ao-apps/noc/issues</url>
 	</issueManagement>
 
 	<ciManagement>
 		<system>GitHub Actions</system>
-		<url>https://github.com/aoindustries/noc/actions</url>
+		<url>https://github.com/ao-apps/noc/actions</url>
 	</ciManagement>
 
 	<repositories>
