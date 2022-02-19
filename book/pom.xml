@@ -29,7 +29,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
 		<relativePath>../../oss/parent/pom.xml</relativePath>
 	</parent>
 
-	<groupId>com.aoindustries</groupId><artifactId>noc-book</artifactId><version>1.3.1-SNAPSHOT</version>
+	<groupId>com.aoindustries</groupId><artifactId>noc-book</artifactId><version>1.3.1</version>
 	<packaging>bundle</packaging>
 
 	<properties>
@@ -82,7 +82,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
 		<connection>scm:git:git://github.com/ao-apps/noc.git</connection>
 		<developerConnection>scm:git:git@github.com:ao-apps/noc.git</developerConnection>
 		<url>https://github.com/ao-apps/noc</url>
-		<tag>HEAD</tag>
+		<tag>noc-book-1.3.1</tag>
 	</scm>
 
 	<issueManagement>
