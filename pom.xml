@@ -33,6 +33,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
   <packaging>pom</packaging>
 
   <properties>
+    <project.build.outputTimestamp>2023-02-08T21:06:04Z</project.build.outputTimestamp>
     <!-- TODO: Remove once moved to platform.aoapps.com -->
     <google.analytics.trackingId>UA-86871646-1</google.analytics.trackingId>
     <!-- com.aoindustries is on original Sonatype Nexus Repository Manager -->
