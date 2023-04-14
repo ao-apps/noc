@@ -19,7 +19,7 @@ Aggregator POM for Network Operations Center.
 ## Project Links
 * [Project Home](https://aoindustries.com/noc/)
 * [Changelog](https://aoindustries.com/noc/changelog)
-* [Maven Central Repository](https://central.sonatype.com/search?namespace=com.aoindustries&q=a%3Anoc)
+* [Maven Central Repository](https://central.sonatype.com/artifact/com.aoindustries/noc)
 * [GitHub](https://github.com/ao-apps/noc)
 
 ## Modules
