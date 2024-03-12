@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 noc - Aggregator POM for Network Operations Center.
-Copyright (C) 2020, 2021, 2022, 2023  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2023, 2024  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -29,7 +29,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     <relativePath>../oss/parent/pom.xml</relativePath>
   </parent>
 
-  <groupId>com.aoindustries</groupId><artifactId>noc</artifactId><version>1.4.2-POST-SNAPSHOT</version>
+  <groupId>com.aoindustries</groupId><artifactId>noc</artifactId><version>1.4.3-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <properties>
