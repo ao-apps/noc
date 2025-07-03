@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 noc - Aggregator POM for Network Operations Center.
-Copyright (C) 2020, 2021, 2022, 2023, 2024  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -35,9 +35,6 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
   <properties>
     <!-- Must be set to ${git.commit.time} for snapshots or ISO 8601 timestamp for releases. -->
     <project.build.outputTimestamp>${git.commit.time}</project.build.outputTimestamp>
-    <!-- com.aoindustries is on original Sonatype Nexus Repository Manager -->
-    <nexusServerId>ossrh-aoindustries</nexusServerId>
-    <nexusUrl>https://oss.sonatype.org/</nexusUrl>
     <!-- SonarQube -->
     <sonar.projectKey>com.aoapps.platform:noc<!-- TODO: ${project.groupId}:${project.artifactId} --></sonar.projectKey>
   </properties>
@@ -96,9 +93,9 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
   <repositories>
     <!-- Repository required here, too, so can find parent -->
     <repository>
-      <id>sonatype-nexus-snapshots-s01</id>
-      <name>Sonatype Nexus Snapshots S01</name>
-      <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+      <id>central-snapshots</id>
+      <name>Central Snapshot Repository</name>
+      <url>https://central.sonatype.com/repository/maven-snapshots/</url>
       <releases>
         <enabled>false</enabled>
       </releases>
