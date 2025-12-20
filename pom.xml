@@ -105,10 +105,24 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <profiles>
+    <profile>
+      <id>javaee</id>
+      <activation>
+        <property>
+          <name>javaee.skip</name>
+          <value>!true</value>
+        </property>
+      </activation>
+      <modules>
+        <module>book</module>
+        <module>gui/book</module>
+      </modules>
+    </profile>
+  </profiles>
+
   <modules>
-    <module>book</module>
     <module>gui</module>
-    <module>gui/book</module>
     <module>gui/devel</module>
     <module>monitor</module>
   </modules>
