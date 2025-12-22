@@ -105,6 +105,12 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     </repository>
   </repositories>
 
+  <modules>
+    <module>gui</module>
+    <module>gui/devel</module>
+    <module>monitor</module>
+  </modules>
+
   <profiles>
     <profile>
       <id>javaee</id>
@@ -120,10 +126,4 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
       </modules>
     </profile>
   </profiles>
-
-  <modules>
-    <module>gui</module>
-    <module>gui/devel</module>
-    <module>monitor</module>
-  </modules>
 </project>
