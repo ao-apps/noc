@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 noc - Aggregator POM for Network Operations Center.
-Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025  AO Industries, Inc.
+Copyright (C) 2020, 2021, 2022, 2023, 2024, 2025, 2026  AO Industries, Inc.
     support@aoindustries.com
     7262 Bull Pen Cir
     Mobile, AL 36695
@@ -113,10 +113,10 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
 
   <profiles>
     <profile>
-      <id>javaee</id>
+      <id>jakartaee</id>
       <activation>
         <property>
-          <name>javaee.skip</name>
+          <name>jakartaee.skip</name>
           <value>!true</value>
         </property>
       </activation>
