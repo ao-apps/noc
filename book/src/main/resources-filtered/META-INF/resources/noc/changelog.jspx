@@ -37,7 +37,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2020-04-11T00:43:24-05:00"
-    dateModified="2025-07-02T23:05:45Z"
+    dateModified="2026-01-15T02:58:57Z"
   >
     <c:set var="latestRelease" value="1.4.2" />
     <c:if test="${
@@ -54,6 +54,11 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
       >
         <ul>
           <li>Updated dependencies.</li>
+          <li>
+            Removed setting of <code>SecurityManager</code> for Java 21 compatibility.
+            We had already been running a <code>security.policy.wideopen</code> policy, so this does not really
+            change anything.
+          </li>
         </ul>
       </changelog:release>
     </c:if>
