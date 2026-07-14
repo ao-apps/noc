@@ -37,7 +37,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2020-04-11T00:43:24-05:00"
-    dateModified="2026-01-15T02:58:57Z"
+    dateModified="2026-07-14T05:21:52Z"
   >
     <c:set var="latestRelease" value="1.4.2" />
     <c:if test="${
@@ -59,6 +59,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
             We had already been running a <code>security.policy.wideopen</code> policy, so this does not really
             change anything.
           </li>
+          <li>Added support for <ao:a href="https://dev.mysql.com/doc/relnotes/mysql/8.4/en/">MySQL 8.4</ao:a>.</li>
         </ul>
       </changelog:release>
     </c:if>
