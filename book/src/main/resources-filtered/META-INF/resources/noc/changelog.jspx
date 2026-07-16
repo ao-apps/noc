@@ -37,7 +37,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
     shortTitle="Changelog"
     tocLevels="1"
     datePublished="2020-04-11T00:43:24-05:00"
-    dateModified="2026-07-14T05:21:52Z"
+    dateModified="2026-07-16T09:55:55Z"
   >
     <c:set var="latestRelease" value="1.4.2" />
     <c:if test="${
@@ -60,6 +60,7 @@ along with noc.  If not, see <https://www.gnu.org/licenses/>.
             change anything.
           </li>
           <li>Added support for <ao:a href="https://dev.mysql.com/doc/relnotes/mysql/8.4/en/">MySQL 8.4</ao:a>.</li>
+          <li>Removed support for <ao:a rel="nofollow" href="https://docs.oracle.com/cd/E19078-01/mysql/mysql-refman-5.1/">MySQL 5.1</ao:a>.</li>
         </ul>
       </changelog:release>
     </c:if>
